@@ -1,0 +1,101 @@
+/********** rendimiento y web ********/
+.speed-grid{
+    
+    margin-top: 3rem;
+    padding: 3rem;
+    display:grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+   
+}
+
+.puntuacion-rend{
+    text-align: center;
+    font-size: 1rem;
+}
+
+.valor{
+    font-size: 3rem;
+    border: solid;
+    padding: 2rem;
+    border-radius: 62px;
+    border-color: rgba(0, 0, 0, 0.08);
+}
+
+.imagen-web{
+    width: 80%;
+    height: 100%;
+    border: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    border-color: rgba(0, 0, 0, 0.08);
+}
+
+.website h2{
+    display: none;
+}
+
+.line2{
+    font-size: .8rem;
+}
+
+
+
+/********* Métricas *********/
+
+.metricas-grid{
+    margin-top: -1rem;
+    padding: 0 3rem 0 3rem;
+    display:grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    gap: 2rem; 
+}
+.metricas{
+    margin-top: -2rem;
+    padding: 2rem;
+    margin-left:5rem;
+}
+
+.metricas h3{
+    text-align: left;
+    font-size: .9rem;
+    color: rgba(0, 0, 0, 0.624);
+    margin-bottom: 2rem;
+}
+.metricas p{
+text-align: left;
+border-bottom: solid;
+border-width: 1px;
+border-color: rgba(0, 0, 0, 0.105);
+padding-bottom: 1rem;
+}
+
+.mtrica-num{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.loading{
+    padding-top: 2rem;
+}
+
+.expanded-details{
+margin-top: .8rem;
+font-size: .95rem;
+margin-right: 5rem;
+}
+
+.arrow-down{
+    font-size: .8rem;
+}
+
+/********* Movil ********/
+@media screen and (min-width:300px) and (max-width:800px) {
+
+    .loading{
+        margin-top: 5rem;
+    }
+
+    .rendimiento{
+        margin-top: 6rem;
+    }
+}

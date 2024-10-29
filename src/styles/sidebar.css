@@ -1,0 +1,163 @@
+.panel{
+    width: 200px;
+    height: 100vh;
+    background-color: white;
+   margin-top: -.3rem;
+    border: solid;
+    border-color: rgba(0, 0, 0, 0.050);
+    border-width: 1px;
+}
+
+.panel ul{
+    list-style: none;
+    margin: 0;
+    margin-top: 4rem;
+    padding-top: 3rem;
+    border-top: solid;
+    border-color: rgba(0, 0, 0, 0.120);
+    border-width: 1px;
+}
+
+.panel li{
+   
+    margin-bottom: 10px;
+    padding: 1rem;
+    padding-left: 2rem;
+    color: black;
+    margin-left: -2rem;
+    margin-bottom: 2rem;
+}
+
+.panel li a{
+    text-decoration: none;
+ 
+}
+
+.element:hover{
+background-color: rgba(0, 0, 0, 0.040);
+}
+
+.submenu{
+   
+    list-style: none;
+    padding-left: 0;
+}
+
+.submenu li{
+    margin-top: -1rem;
+}
+
+svg{
+    width: 17%;
+    height: 70%;
+    color: #395886;
+    margin-right:1.2rem ;
+}
+
+.sub-element:hover{
+    background-color: rgba(0, 0, 0, 0.100);
+    margin-right: -1rem;
+}
+
+.image-logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    margin-bottom: -3.1rem;
+}
+
+img{
+    margin-top: 1rem;
+}
+
+.bt-logout{
+    margin-top: 2rem;
+    background-color: rgb(14, 116, 163);
+    border: none;
+    color: white;
+    padding: .6rem 1.2rem .6rem 1.2rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.btn-cont{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 810px) {
+    .hamburguer{ /* Estilos para el botón hamburguesa */
+        display: none;
+      }
+}
+
+/* Estilos para pantallas pequeñas */
+@media screen and (min-width:300px) and (max-width:800px) {
+    
+    .panel{
+        width: 0px;
+            border: none;
+    }
+
+    .panel ul {
+      display: none; 
+      position: absolute;
+      top: 25px; /* Ajusta la posición según tu diseño */
+      left: 0;
+      width: 100%;
+      background-color: white; /* O el color de fondo que desees */
+    }
+  
+    .panel ul.open { /* Clase para mostrar el menú cuando isMenuOpen es true */
+      display: block;
+    }
+  
+    .hamburger { /* Estilos para el botón hamburguesa */
+      display: block;
+    margin-bottom: 4rem;
+
+    }
+    
+    button{
+        background-color: rgba(255, 255, 255, 0);
+        border: none;
+    }
+
+ 
+    svg{
+        width: 5%;
+        height: 50%;
+        color: #395886;
+        margin-right:1.2rem ;
+    }
+
+    .bi-list{
+        width: 9%;
+        height: 10%;
+        color: #395886;
+        margin-right:1.2rem ;
+        position: absolute;
+        top:2%;
+        right:75%
+}
+
+    .bt-logout{
+        margin-top: 0;
+        padding: .6rem 1rem .6rem 1rem;
+        font-size: .8rem;
+        position: absolute;
+        top:5%;
+        right:9%;
+    }
+
+    .image-logo{
+        position: absolute;
+        top:0%;
+        right:50%;
+     
+    }
+
+
+
+    
+  }

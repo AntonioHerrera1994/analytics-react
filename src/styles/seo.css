@@ -1,0 +1,14 @@
+@media screen and (min-width:300px) and (max-width:800px) {
+
+    iframe{
+        width: 118%;
+        height: 800;
+        margin-left: -2.3rem;
+     
+    }
+
+    .seo-cont{
+        margin-top: 5rem;
+    }
+
+}

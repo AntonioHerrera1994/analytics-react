@@ -1,0 +1,5 @@
+Instalaciones
+
+*FireBase - Integración con firebase
+*React-Router-Dom - Crear rutas
+*Dotenv - Variables de entorno

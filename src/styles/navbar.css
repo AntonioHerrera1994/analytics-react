@@ -1,0 +1,22 @@
+.topbar{
+    background-color: #395886;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-top: -1.3rem;
+    margin-left: -1.3rem;
+    margin-right: -1.3rem;
+}
+
+.topbar h3{
+    color:white;
+    text-align: left;
+    padding-left: 2rem;
+    font-size: 1.5rem;
+}
+
+
+@media screen and (min-width:300px) and (max-width:800px) {
+    .topbar{
+        display: none;
+    }
+}

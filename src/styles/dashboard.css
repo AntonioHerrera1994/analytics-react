@@ -1,0 +1,14 @@
+.dash-analytics{
+    margin-left: -5rem;
+}
+
+
+@media screen and (min-width:1500px){
+    iframe{
+     margin-left: -16rem;
+     width: 80%;
+     height: 100;
+    }
+
+    
+}
