@@ -84,9 +84,13 @@ const LoginFormComp = () => {
                     </button>
 
                     </h4>
-                </div>
-            </div>
 
+                </div>
+                <p className="mensaje">Usuario: usuario@ejemplo.com <br></br>
+                Contraseña: 123456
+                </p>
+            </div>
+ 
         </div>
     )
 }
