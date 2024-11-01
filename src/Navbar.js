@@ -5,7 +5,7 @@ export default function NavBar(){
     return(
         <>
         <div className="topbar">
-            <h3>TruCapitals</h3>
+            <h3>Bienvenido</h3>
         </div>
         </>
     )
