@@ -45,7 +45,7 @@ const LoginFormComp = () => {
                 <div className="form">
                     <div className="form-logo">
                         <img 
-                        src='https://site.trucapitals.com/wp-content/uploads/2024/09/icono.png'
+                        src=''
                         alt='form-logo'
                         width={80}
                         height={80}

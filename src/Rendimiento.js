@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './styles/rendimiento.css';
-import Image from './assets/tru-web2.png';
+import Image from './assets/ing.png';
 
 function PageSpeedResult({ websiteUrl }) {
   //variables de estado
